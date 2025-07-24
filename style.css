@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1250px;
+  margin: 0 auto;
+  font-family: "Volkhov";
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  justify-content: space-between;
+}
+.nav-items {
+  display: flex;
+  align-items: center;
+  gap: 55px;
+}
+
+.logo {
+  font-weight: 500;
+  font-size: 3rem;
+  color: rgb(51, 45, 45);
+}
+
+.nav-items p {
+  font-size: 1.2rem;
+  color: rgb(117, 108, 108);
+  font-weight: 500;
+}
+
+.navbar button {
+  background: black;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-radius: 5px;
+  color: white;
+}
+
+#nav-icon {
+  display: none;
+}
+
+#img-one {
+  width: 422px;
+  height: 570px;
+  position: absolute;
+  bottom: -5.5rem;
+}
+.img-one {
+  background: #e0e0e0;
+  position: relative;
+  width: 350px;
+  height: 650px;
+  margin-top: 80px;
+  border-radius: 10px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+.mid-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#img-two {
+  width: 450px;
+}
+#img-three {
+  max-width: 100%;
+}
+.img-two {
+  width: 450px;
+  height: 150px;
+  background: #e0e0e0;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.img-three {
+  display: flex;
+  height: 250px;
+  width: 350px;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.hero p {
+  font-family: "Poppins";
+  line-height: 120px;
+}
+.text-ultimate {
+  font-size: 6.5rem;
+  color: #484848;
+  padding-bottom: 10px;
+}
+
+.text-sale {
+  font-size: 13rem;
+  padding-top: 20px;
+  color: white;
+
+  -webkit-text-stroke: 2px #484848;
+
+  text-stroke: 2px #484848;
+
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+
+  font-weight: 600;
+}
+.collection-text {
+  font-size: 1.5rem;
+  color: black;
+}
+.hero button {
+  background: black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 55px;
+  padding-right: 55px;
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 20px;
+}
+.brand-section {
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  margin-top: 50px;
+  gap: 150px;
+}
+.brand-section img {
+  width: 150px;
+  height: 40px;
+  margin-top: 50px;
+}
