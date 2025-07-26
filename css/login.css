@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Volkhov";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: #000;
+  margin-top: 1rem;
+  width: 1520px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 920px;
+  border: 1px solid #dbdbdb;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.box-one {
+  height: 100%;
+  width: 40%;
+  background-image: url("../images/loginref.jpg");
+  background-position: center;
+}
+.box-two {
+  height: 100%;
+  background: white;
+  width: 60%;
+  padding-left: 150px;
+  padding-top: 3rem;
+}
+
+.logo {
+  font-weight: 500;
+  font-size: 3rem;
+  color: rgb(51, 45, 45);
+}
+.para {
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins";
+  gap: 45px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 42px;
+  border: 1px solid #5b86e5;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  transition: 0.1s linear;
+  border-radius: 7px;
+}
+.btn img {
+  width: 30px;
+}
+.or-para {
+  font-size: 2.5rem;
+  color: #d7d5d5;
+
+  padding-top: 2rem;
+}
+
+.inputs {
+  display: flex;
+  margin-top: 2.5rem;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+#input {
+  width: 80%;
+  font-size: 1.5rem;
+  color: #484848;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  outline: none;
+  border-bottom: 2px solid #dbdbdb;
+  border-left: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+  border-top: 2px solid #ffffff;
+  background: white;
+}
+
+#btn-one {
+  width: 80%;
+  font-size: 1.3rem;
+  background: #000;
+  color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: none;
+  border-radius: 5px;
+}
+#btn-two {
+  width: 80%;
+  font-size: 1.3rem;
+  color: #5b86e5;
+  background: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 1px solid #5b86e5;
+  border-radius: 5px;
+}
+.login-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 2rem;
+}
+
+.forgot-para {
+  color: black;
+  font-weight: bold;
+  padding-top: 1.2rem;
+}
+.forgot-para:hover {
+  cursor: pointer;
+}
+.forgot-span {
+  color: #2963e0;
+}
+.btn:hover {
+  cursor: pointer;
+  background: #5b86e5;
+  color: white;
+  border-radius: 1px;
+}

@@ -5,9 +5,12 @@
 }
 
 body {
+  font-family: "Volkhov";
+  overflow-x: hidden;
+}
+.wrap {
   max-width: 1250px;
   margin: 0 auto;
-  font-family: "Volkhov";
 }
 
 .navbar {
@@ -140,6 +143,10 @@ body {
   flex-direction: row;
   margin-top: 50px;
   gap: 150px;
+  width: 1920px;
+  height: 200px;
+  justify-content: center;
+  padding-bottom: 80px;
 }
 .brand-section img {
   width: 150px;
