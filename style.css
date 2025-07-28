@@ -18,6 +18,8 @@ body {
   align-items: center;
   padding-top: 40px;
   justify-content: space-between;
+  max-width: 1250px;
+  margin: 0 auto;
 }
 .nav-items {
   display: flex;
@@ -47,15 +49,80 @@ body {
   color: white;
 }
 
+.nav-btn {
+  background: black;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-radius: 5px;
+  color: white;
+  margin-top: 3rem;
+}
+.swiper {
+  width: 100%;
+  height: 800px;
+  margin-top: 3rem;
+}
+.swiper-slide {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 10px;
+  padding: 10px;
+}
+#img-slide {
+  width: 100%;
+  height: auto;
+}
+.swiper-slide img {
+  width: 300px;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
 #nav-icon {
   display: none;
 }
-
+.swiper-button-prev {
+}
 #img-one {
   width: 422px;
   height: 570px;
   position: absolute;
   bottom: -5.5rem;
+}
+.inside-div {
+  position: absolute;
+  top: 70%;
+  left: 5%;
+  width: 250px;
+  height: 150px;
+  background-color: #fff;
+  padding: 25px;
+  z-index: 0;
+  font-family: "Poppins";
+}
+.inside-first {
+  color: #484848;
+}
+.valid {
+  color: #484848;
+  font-size: 14px;
+}
+.inside-late {
+  padding-top: 1rem;
+  font-size: 2rem;
 }
 .img-one {
   background: #e0e0e0;
@@ -70,8 +137,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 4rem;
+  padding-top: 4rem;
+  max-width: 1250px;
+  margin: 0 auto;
 }
+
 .mid-sec {
   display: flex;
   flex-direction: column;
@@ -142,9 +212,7 @@ body {
   align-content: center;
   flex-direction: row;
   margin-top: 50px;
-  gap: 150px;
-  width: 1920px;
-  height: 200px;
+  gap: 110px;
   justify-content: center;
   padding-bottom: 80px;
 }
@@ -152,4 +220,33 @@ body {
   width: 150px;
   height: 40px;
   margin-top: 50px;
+}
+.deals {
+  background-color: #fafafa;
+  padding-bottom: 120px;
+}
+.deals-container {
+  max-width: 1250px;
+  padding-top: 4rem;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.head-logo {
+  font-weight: 500;
+  font-size: 3rem;
+  color: rgb(51, 45, 45);
+}
+
+.head-para {
+  color: #8a8a8a;
+  font-size: 17px;
+  width: 620px;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
