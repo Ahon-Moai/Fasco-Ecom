@@ -230,6 +230,100 @@ body {
   padding-top: 4rem;
   margin: 0 auto;
 }
+.testi {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background: #fafafa;
+}
+.newsl {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.newsl-div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.newsl-container {
+  display: flex;
+}
+.newsl-container img {
+  width: 500px;
+}
+.testi-container {
+  max-width: 1250px;
+  padding-top: 6rem;
+  margin: 0 auto;
+}
+.newsl-para {
+  font-size: 1.2rem;
+  color: #767676;
+  margin-top: 1rem;
+}
+.reviews {
+  margin-top: 5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#testi-img {
+  width: 320px;
+  margin-top: 3rem;
+}
+.review {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  height: 450px;
+  width: 820px;
+  padding: 30px;
+  background: #fff;
+  border-radius: 5px;
+  font-family: "Poppins";
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn-testi {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
+.testi-btn {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 32px;
+  padding-right: 32px;
+  background: none;
+  color: black;
+  transition: 0.1s linear;
+  border: 2px solid #000;
+}
+
+.testi-btn:hover {
+  background: #000;
+  color: white;
+  cursor: pointer;
+}
+.review-para-text {
+  font-size: 1.5rem;
+}
+.review-para {
+  margin-left: 3rem;
+}
+.review-head-text {
+  font-size: 1.5rem;
+  color: #333;
+}
+.review-head-para-text {
+  color: #8a8a8a;
+}
 .arrival {
   padding-bottom: 120px;
 }
@@ -312,10 +406,72 @@ body {
   font-size: 1.2rem;
   text-decoration: underline;
 }
+.pky-desc-text:hover {
+  cursor: pointer;
+}
+.pky-btn:hover {
+  cursor: pointer;
+}
+#pky-btn:hover {
+  cursor: pointer;
+}
+
 #pky-img {
   width: 620px;
 }
+.service-container {
+  max-width: 1250px;
+  padding-bottom: 2rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
 
+  gap: 50px;
+  white-space: nowrap;
+}
+.insta {
+  padding-bottom: 2rem;
+  padding-top: 6rem;
+}
+.insta-container {
+  max-width: 1250px;
+
+  margin: 0 auto;
+}
+.normal {
+  width: 250px;
+}
+.speci {
+  width: 320px;
+}
+.insta-picture-gallery {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3rem;
+  padding-bottom: 5rem;
+}
+.service {
+  box-shadow: 0 8px 10px -5px rgba(0, 0, 0, 0.05);
+  padding-bottom: 2rem;
+}
+
+.service-main {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: "Poppins";
+}
+.service-main-text {
+  font-size: 1.5rem;
+}
+.service-para-text {
+  color: #767676;
+}
+.service-main i {
+  font-size: 4rem;
+}
 .pky-para {
   font-size: 1.2rem;
   color: #767676;
@@ -455,4 +611,9 @@ body {
 .arr-price {
   font-size: 1.5rem;
   font-weight: 500;
+}
+.newsl-header {
+  font-size: 3.2rem;
+  font-family: "Volkhov";
+  white-space: nowrap;
 }
