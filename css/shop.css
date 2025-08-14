@@ -74,7 +74,6 @@ body {
 
 .main-fashion {
   display: flex;
-  align-items: center;
 
   padding-top: 7rem;
   max-width: 1450px;
@@ -233,4 +232,19 @@ body {
 .prices-real p:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+.main-head {
+  display: flex;
+  justify-content: space-between;
+}
+.best-para {
+  font-size: 1.3rem;
+  color: black;
+  font-weight: 600;
+}
+
+.main-btns {
+  display: flex;
+  justify-content: space-between;
 }
