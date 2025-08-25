@@ -7,6 +7,7 @@
 body {
   font-family: "Volkhov";
   overflow-x: hidden;
+  padding-bottom: 120px;
 }
 
 .navbar {
@@ -16,6 +17,43 @@ body {
   max-width: 1450px;
   margin: 0 auto;
   padding-top: 40px;
+}
+.color-in-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.boxes {
+  margin-top: 3rem;
+  margin-left: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.box-img-div {
+  width: 350px;
+  height: 450px;
+  background-position: center;
+}
+.box-text-div {
+  margin-top: 1rem;
+}
+.box-text-div h1 {
+  font-family: "Poppins";
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.box-text-div p {
+  color: #8a8a8a;
+  font-size: 1.2rem;
+}
+.box-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .nav-items {
   display: flex;
@@ -50,6 +88,17 @@ body {
   font-size: 3rem;
   color: rgb(51, 45, 45);
 }
+.nav-logos {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+#star-logo {
+  font-family: 1.5rem;
+}
+.nav-logos i {
+  font-size: 1.1rem;
+}
 .top-text {
   display: flex;
   flex-direction: column;
@@ -76,7 +125,9 @@ body {
   display: flex;
 
   padding-top: 7rem;
+
   max-width: 1450px;
+
   margin: 0 auto;
 }
 .left-fashion {
@@ -152,6 +203,7 @@ body {
   width: 35px;
   height: 35px;
   cursor: pointer;
+  border: 2px solid black;
 }
 .color-main {
   margin-top: 1.5rem;
@@ -237,6 +289,8 @@ body {
 .main-head {
   display: flex;
   justify-content: space-between;
+
+  width: 100%;
 }
 .best-para {
   font-size: 1.3rem;
@@ -246,5 +300,349 @@ body {
 
 .main-btns {
   display: flex;
+
+  width: 100%;
+}
+.tester {
+  display: flex;
+  align-items: center;
   justify-content: space-between;
+  width: 100%;
+}
+.div {
+  display: flex;
+}
+.right-side {
+  width: 100%;
+}
+.best-para {
+  width: 100%;
+  white-space: nowrap;
+}
+
+#special-con {
+  padding-left: 15px;
+  padding-right: 15px;
+  background: #f2f2f2;
+  height: 40px;
+  width: auto;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top: 15px;
+
+  border-radius: 10px;
+}
+.main-div {
+  display: flex;
+  width: 100%;
+  max-width: 1450px;
+  padding-top: 5rem;
+  margin: 0 auto;
+}
+.left-div {
+  display: flex;
+
+  justify-content: space-between;
+  gap: 80px;
+}
+.col-1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.col-1 img {
+  width: 80px;
+}
+
+.col-2 img {
+  width: 550px;
+  height: auto;
+}
+
+.right-div {
+  padding-left: 6rem;
+  width: 100%;
+}
+
+.right-div-logo {
+  color: #808080;
+}
+.product-name {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.product-name h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+.product-price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 1.5rem;
+}
+
+.price-one {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.price-two {
+  color: #808080;
+  font-size: 1.2rem;
+  text-decoration: line-through;
+}
+.price-three {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  background: red;
+  font-size: 12px;
+  border-radius: 10px;
+}
+.stars {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.watching {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #808080;
+  margin-top: 1rem;
+}
+.offer-time {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fdefee;
+  color: #f38787;
+  font-weight: bold;
+  padding: 1rem;
+  border: 2px solid #f8cccc;
+
+  margin-top: 3rem;
+}
+
+.stock-left {
+  margin-top: 2rem;
+  color: #666666;
+  font-family: "Poppins";
+}
+.stock-left p {
+  font-size: 1.1rem;
+}
+.bold-span {
+  font-weight: bold;
+}
+.container-stock {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+
+.bar1 {
+  background: red;
+  width: 10%;
+  height: 6px;
+}
+.bar2 {
+  background-color: #dedede;
+  width: 90%;
+  height: 6px;
+}
+.size-div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sizes-selection {
+  margin-top: 2rem;
+}
+.size-selection-main-para {
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  font-size: 17px;
+}
+.size-div-selection {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid #eeeeee;
+  transition: 0.1s;
+}
+.selection {
+  color: white;
+  background: #000;
+}
+.size-div-selection:hover {
+  color: white;
+  background: #000;
+  cursor: pointer;
+}
+.product-color-selection {
+  margin-top: 2.5rem;
+}
+.product-color-selection-para {
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  font-size: 17px;
+}
+.colors-selection-div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.selection-color-one {
+  width: 38px;
+  height: 38px;
+  border-radius: 20px;
+  background: #8db4d2;
+}
+.selection-color-two {
+  width: 38px;
+  height: 38px;
+  border-radius: 20px;
+  background: #000;
+}
+.selection-color-three {
+  width: 38px;
+  height: 38px;
+  border-radius: 20px;
+  background: #ffd1dc;
+}
+.color-selection {
+  border: 2px solid #000;
+}
+.selection-color-one:hover {
+  border: 2px solid #000;
+  cursor: pointer;
+}
+.selection-color-two:hover {
+  cursor: pointer;
+}
+.selection-color-three:hover {
+  border: 2px solid #000;
+  cursor: pointer;
+}
+.quantity-selection {
+  margin-top: 3rem;
+}
+.quantity-selection-para {
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  font-size: 17px;
+}
+.quantity-meter {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid #eeeeee;
+
+  width: 150px;
+  height: 50px;
+}
+
+.quantity-meter button {
+  width: 100%;
+  background: none;
+  height: 100%;
+  border: none;
+  font-size: 17px;
+}
+.quantity-meter button:hover {
+  cursor: pointer;
+}
+.quantity-bottom-selection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.add-to-cart-button {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 70%;
+  border-radius: 5px;
+  border: 2px solid #000;
+  text-align: center;
+  transition: 0.1s linear;
+}
+
+.add-to-cart-button:hover {
+  color: white;
+  background: #000;
+}
+.FAQ {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+  gap: 30px;
+  font-family: "Poppins";
+}
+.faqs {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.faqs p {
+  font-size: 1.2rem;
+}
+.faqs i {
+  font-size: 1.5rem;
+}
+.faqs:hover {
+  cursor: pointer;
+}
+.FAQ {
+  border-bottom: 2px solid #eeeeee;
+  padding-bottom: 30px;
+}
+.text-one,
+.text-two {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.text-one,
+.text-two i {
+  font-size: 1.1rem;
+}
+.text-one,
+.text-two {
+  font-size: 1.3rem;
+}
+.delivery-para {
+  font-weight: 600;
+}
+.delivery-span {
+  padding-left: 5px;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+.cards-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5.5rem;
+  background: #f8f8f8;
+  width: 100%;
+  height: 150px;
+  flex-direction: column;
+}
+.cards-section p {
+  font-size: 1.3rem;
+  margin-top: 1rem;
 }
