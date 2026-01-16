@@ -40,3 +40,70 @@ body {
   border-radius: 0.5rem;
   border: none;
 }
+.hero-sale {
+  display: flex;
+  max-width: 1250px;
+  margin: auto;
+
+  align-content: center;
+  justify-content: space-evenly;
+}
+.center-sale {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.side-sale {
+  background-color: #e0e0e0;
+  border-radius: 0.5rem;
+}
+.side-sale img {
+  height: 100%;
+  width: 100%;
+  padding-top: 7rem;
+}
+.right-side-hero-img {
+  padding-left: 2rem;
+  padding-right: 4rem;
+}
+.center-img-top {
+  background-color: #e0e0e0;
+  border-radius: 0.5rem;
+  padding-top: 0.5rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+.center-texts {
+  text-align: center;
+}
+.center-text-one {
+  font-size: 4.5rem;
+  font-weight: 500;
+  color: #484848;
+}
+.center-text-two {
+  font-size: 11rem;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  margin: 0;
+  color: white;
+  letter-spacing: 1px;
+  line-height: 0.8;
+}
+.center-text-three {
+  font-size: 1.1rem;
+  padding-top: 1rem;
+  letter-spacing: 2.3px;
+  color: #676565;
+  font-weight: 500;
+}
+.sale-btn {
+  background: black;
+  color: white;
+  padding: 0.9rem 3.2rem;
+  border-radius: 0.5rem;
+  border: none;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
