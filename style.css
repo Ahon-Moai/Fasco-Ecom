@@ -127,15 +127,18 @@ body {
 }
 .carosuel-main {
   display: flex;
-  align-items: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   flex-direction: row;
   max-width: 1250px;
   margin: auto;
-  background-color: #fdfdfd;
+}
+.carosuel-container {
+  background-color: #0000000e;
 }
 .timer {
   display: flex;
-  gap: 16px;
+  gap: 26px;
 }
 .left-side-carosuel {
   display: flex;
@@ -146,26 +149,83 @@ body {
 .buy-btn {
   background: black;
   color: white;
-  padding: 0.9rem 2.2rem;
+  padding: 0.9rem 2.5rem;
   border-radius: 0.5rem;
   border: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   display: inline-flex;
   width: fit-content;
 }
+
 .timer {
   display: flex;
-  gap: 16px;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.Day,
+Hr,
+Min,
+Sec {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.imgs-carosuel {
+  display: flex;
+  align-items: center;
+  transition: 1s linear;
 }
 
-.timer div {
+.img-carosuel-main {
+  height: 380px;
+}
+.img-carosuel-center {
+  align-items: center;
   flex-direction: column;
   display: flex;
-  background: #f5f5f5;
-  padding: 10px 14px;
-  border-radius: 6px;
+  text-align: center;
 }
-
+.img-carosuel-center img {
+  height: 450px;
+}
+.carosuel-header {
+  text-decoration: none;
+  font-family: "Volkhov", serif;
+  color: #484848;
+  font-weight: 500;
+  font-size: 2.5rem;
+  padding-top: 3rem;
+  white-space: pre;
+}
+.carosuel-para {
+  color: #8a8a8a;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.carosuel-market-text {
+  color: black;
+  font-weight: 500;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+.timer {
+  padding-top: 1.5rem;
+}
 .timer span {
-  font-size: 22px;
-  font-weight: bold;
+  background: #f8f7f7;
+  padding: 1rem 1.2rem;
+  border-radius: 5px;
+  display: inline-block;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  font-size: 2rem;
+  font-family: "Digital-7 Mono", sans-serif;
+}
+.timer p {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin-top: 1rem;
 }

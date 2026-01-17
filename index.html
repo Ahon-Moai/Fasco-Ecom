@@ -23,6 +23,10 @@
       href="https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.cdnfonts.com/css/digital-7-mono"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="navbar">
@@ -61,26 +65,48 @@
         alt=""
       /><img src="./img/logo(4).png" alt="" />
     </section>
-    <section class="carosuel-main">
-      <div class="left-side-carosuel">
-        <p>Deals Of The Month</p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque
-          duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices
-          sollicitudin
-        </p>
-        <button class="buy-btn">Buy Now</button>
-        <p>Hurry, Before It’s Too Late!</p>
-        <div class="timer">
-          <div><span>02</span>Days</div>
-          <div><span>06</span>Hr</div>
-          <div><span>05</span>Mins</div>
-          <div><span>30</span>Sec</div>
+    <div class="carosuel-container">
+      <section class="carosuel-main">
+        <div class="left-side-carosuel">
+          <p class="carosuel-header">Deals Of The Month</p>
+          <p class="carosuel-para">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque
+            duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices
+            sollicitudin
+          </p>
+          <button class="buy-btn">Buy Now</button>
+          <p class="carosuel-market-text">Hurry, Before It’s Too Late!</p>
+          <div class="timer">
+            <div class="Day">
+              <span>02</span>
+              <p>Day</p>
+            </div>
+            <div class="Hr">
+              <span>06</span>
+              <p>Hr</p>
+            </div>
+            <div class="Min">
+              <span>05</span>
+              <p>Min</p>
+            </div>
+            <div class="Sec">
+              <span>30</span>
+              <p>sec</p>
+            </div>
+          </div>
         </div>
-      </div>
 
-      <div class="right-side-carosuel"></div>
-    </section>
+        <div class="right-side-carosuel">
+          <div class="imgs-carosuel">
+            <img class="img-carosuel-main" src="./img/model1.png" alt="" />
+            <div class="center-img-carosuel">
+              <img class="img-carosuel-center" src="./img/model2.png" alt="" />
+            </div>
+            <img class="img-carosuel-main" src="./img/model3.png" alt="" />
+          </div>
+        </div>
+      </section>
+    </div>
   </body>
   <script src="script.js"></script>
 </html>
