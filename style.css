@@ -125,3 +125,47 @@ body {
   height: 100%;
   padding: 3rem 2rem;
 }
+.carosuel-main {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  max-width: 1250px;
+  margin: auto;
+  background-color: #fdfdfd;
+}
+.timer {
+  display: flex;
+  gap: 16px;
+}
+.left-side-carosuel {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+.buy-btn {
+  background: black;
+  color: white;
+  padding: 0.9rem 2.2rem;
+  border-radius: 0.5rem;
+  border: none;
+  display: inline-flex;
+  width: fit-content;
+}
+.timer {
+  display: flex;
+  gap: 16px;
+}
+
+.timer div {
+  flex-direction: column;
+  display: flex;
+  background: #f5f5f5;
+  padding: 10px 14px;
+  border-radius: 6px;
+}
+
+.timer span {
+  font-size: 22px;
+  font-weight: bold;
+}
