@@ -1,25 +1,33 @@
-new Swiper(".mySwiper", {
-  slidesPerView: 2.2,
-  spaceBetween: 20,
-  loop: true,
-  centeredSlides: true,
-
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
+const products = [
+  {
+    name: "Shiny Dress",
+    brand: "Al Karam",
+    price: 99.48,
+    reviews: "4.1k",
+    category: "women",
+    image: "./img/item.png",
+    soldOut: true,
   },
-
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+  {
+    name: "Men Jacket",
+    brand: "Brand X",
+    price: 89.0,
+    reviews: "3.2k",
+    category: "men",
+    image: "./img/item.png",
+    soldOut: false,
   },
+];
 
-  breakpoints: {
-    0: {
-      slidesPerView: 1.1,
-    },
-    768: {
-      slidesPerView: 2.2,
-    },
-  },
+const tabs = document.querySelectorAll(".item-options button");
+const productContainer = document.getElementById("products");
+/* PRODUCT TABS */
+
+tabs.forEach((tab) => {
+  tab.addEventListener("click", () => {
+    tabs.forEach((t) => t.classList.remove("active"));
+    tab.classList.add("active");
+  });
 });
+
+/* Product Showcase  */
