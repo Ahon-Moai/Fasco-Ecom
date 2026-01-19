@@ -9,15 +9,10 @@ const btnFour = document.querySelector("#btn-4");
 const btnFive = document.querySelector("#btn-5");
 
 const btnLoadMore = document.querySelector(".load-more-btn");
-const fakeLoadingBtn = document.querySelector(".fake-loading");
 
 btnLoadMore.addEventListener("click", () => {
-  console.log("Button was clicked!");
-
   btnLoadMore.style.opacity = "0";
   btnLoadMore.style.pointerEvents = "none";
-
-  fakeLoadingBtn.style.opacity = "1";
 });
 
 btnOne.addEventListener("click", (men) => {
