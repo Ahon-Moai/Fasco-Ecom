@@ -1,33 +1,55 @@
-const products = [
-  {
-    name: "Shiny Dress",
-    brand: "Al Karam",
-    price: 99.48,
-    reviews: "4.1k",
-    category: "women",
-    image: "./img/item.png",
-    soldOut: true,
-  },
-  {
-    name: "Men Jacket",
-    brand: "Brand X",
-    price: 89.0,
-    reviews: "3.2k",
-    category: "men",
-    image: "./img/item.png",
-    soldOut: false,
-  },
-];
-
+const parentMenDiv = document.getElementById("men-div");
+const parentWomenDiv = document.getElementById("women-div");
 const tabs = document.querySelectorAll(".item-options button");
-const productContainer = document.getElementById("products");
-/* PRODUCT TABS */
-
-tabs.forEach((tab) => {
-  tab.addEventListener("click", () => {
-    tabs.forEach((t) => t.classList.remove("active"));
-    tab.classList.add("active");
-  });
+const btnOne = document.querySelector("#btn-1");
+const btnTwo = document.querySelector("#btn-2");
+const btnThree = document.querySelector("#btn-3");
+const btnFour = document.querySelector("#btn-4");
+const btnFive = document.querySelector("#btn-5");
+/*  menFashionBtn.addEventListener("click", (men) => {
+parentMenDiv.style.display = "flex";
+parentWomenDiv.style.display = "none";
+});
+*/
+/* womenFashionbtn.addEventListener("click", (women) => {
+    parentMenDiv.style.display = "none";
+    parentWomenDiv.style.display = "flex";
+});
+*/
+btnOne.addEventListener("click", () => {
+  btnOne.classList.add("active");
+  btnTwo.classList.remove("active");
+  btnThree.classList.remove("active");
+  btnFour.classList.remove("active");
+  btnFive.classList.remove("active");
+});
+btnTwo.addEventListener("click", () => {
+  btnOne.classList.remove("active");
+  btnTwo.classList.add("active");
+  btnThree.classList.remove("active");
+  btnFour.classList.remove("active");
+  btnFive.classList.remove("active");
+});
+btnThree.addEventListener("click", () => {
+  btnOne.classList.remove("active");
+  btnTwo.classList.remove("active");
+  btnThree.classList.add("active");
+  btnFour.classList.remove("active");
+  btnFive.classList.remove("active");
 });
 
-/* Product Showcase  */
+btnFour.addEventListener("click", () => {
+  btnOne.classList.remove("active");
+  btnTwo.classList.remove("active");
+  btnThree.classList.remove("active");
+  btnFour.classList.add("active");
+  btnFive.classList.remove("active");
+});
+
+btnFive.addEventListener("click", () => {
+  btnOne.classList.remove("active");
+  btnTwo.classList.remove("active");
+  btnThree.classList.remove("active");
+  btnFour.classList.remove("active");
+  btnFive.classList.add("active");
+});

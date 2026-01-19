@@ -291,6 +291,13 @@ Sec {
   justify-content: space-between;
   padding-top: 7rem;
   padding-bottom: 5rem;
+}
+#men-div,
+#women-div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
   gap: 2rem;
 }
 .product-card {
@@ -301,8 +308,8 @@ Sec {
   padding-bottom: 1.5rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   background: #fdfdfd;
-  display: inline-block;
 }
+
 .product-card img {
 }
 .product-name-rating {
@@ -333,7 +340,7 @@ Sec {
   color: #484848;
   font-weight: 600;
 }
-.product-availability {
+.prodcut-availity {
   font-size: 0.9rem;
   color: red;
   font-weight: 400;
