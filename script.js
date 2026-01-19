@@ -1,21 +1,34 @@
-const parentMenDiv = document.getElementById("men-div");
-const parentWomenDiv = document.getElementById("women-div");
+const parentMenDiv = document.querySelector("#men-div");
+const parentWomenDiv = document.querySelector("#women-div");
 const tabs = document.querySelectorAll(".item-options button");
 const btnOne = document.querySelector("#btn-1");
 const btnTwo = document.querySelector("#btn-2");
 const btnThree = document.querySelector("#btn-3");
 const btnFour = document.querySelector("#btn-4");
 const btnFive = document.querySelector("#btn-5");
-/*  menFashionBtn.addEventListener("click", (men) => {
-parentMenDiv.style.display = "flex";
-parentWomenDiv.style.display = "none";
+
+btnOne.addEventListener("click", (men) => {
+  parentMenDiv.style.display = "flex";
+  parentWomenDiv.style.display = "none";
 });
-*/
-/* womenFashionbtn.addEventListener("click", (women) => {
-    parentMenDiv.style.display = "none";
-    parentWomenDiv.style.display = "flex";
+
+btnTwo.addEventListener("click", (women) => {
+  parentMenDiv.style.display = "none";
+  parentWomenDiv.style.display = "flex";
 });
-*/
+btnThree.addEventListener("click", (women) => {
+  parentMenDiv.style.display = "none";
+  parentWomenDiv.style.display = "flex";
+});
+btnFour.addEventListener("click", (men) => {
+  parentMenDiv.style.display = "flex";
+  parentWomenDiv.style.display = "none";
+});
+btnFive.addEventListener("click", (men) => {
+  parentMenDiv.style.display = "flex";
+  parentWomenDiv.style.display = "none";
+});
+
 btnOne.addEventListener("click", () => {
   btnOne.classList.add("active");
   btnTwo.classList.remove("active");
