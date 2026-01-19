@@ -1,11 +1,24 @@
 const parentMenDiv = document.querySelector("#men-div");
 const parentWomenDiv = document.querySelector("#women-div");
+
 const tabs = document.querySelectorAll(".item-options button");
 const btnOne = document.querySelector("#btn-1");
 const btnTwo = document.querySelector("#btn-2");
 const btnThree = document.querySelector("#btn-3");
 const btnFour = document.querySelector("#btn-4");
 const btnFive = document.querySelector("#btn-5");
+
+const btnLoadMore = document.querySelector(".load-more-btn");
+const fakeLoadingBtn = document.querySelector(".fake-loading");
+
+btnLoadMore.addEventListener("click", () => {
+  console.log("Button was clicked!");
+
+  btnLoadMore.style.opacity = "0";
+  btnLoadMore.style.pointerEvents = "none";
+
+  fakeLoadingBtn.style.opacity = "1";
+});
 
 btnOne.addEventListener("click", (men) => {
   parentMenDiv.style.display = "flex";
