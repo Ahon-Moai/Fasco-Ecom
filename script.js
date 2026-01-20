@@ -1,6 +1,5 @@
 const parentMenDiv = document.querySelector("#men-div");
 const parentWomenDiv = document.querySelector("#women-div");
-
 const tabs = document.querySelectorAll(".item-options button");
 const btnOne = document.querySelector("#btn-1");
 const btnTwo = document.querySelector("#btn-2");
