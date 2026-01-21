@@ -7,13 +7,6 @@ const btnThree = document.querySelector("#btn-3");
 const btnFour = document.querySelector("#btn-4");
 const btnFive = document.querySelector("#btn-5");
 
-const btnLoadMore = document.querySelector(".load-more-btn");
-
-btnLoadMore.addEventListener("click", () => {
-  btnLoadMore.style.opacity = "0";
-  btnLoadMore.style.pointerEvents = "none";
-});
-
 btnOne.addEventListener("click", (men) => {
   parentMenDiv.style.display = "flex";
   parentWomenDiv.style.display = "none";
