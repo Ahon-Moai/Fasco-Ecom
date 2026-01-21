@@ -514,3 +514,73 @@ icon-four {
   padding-top: 5rem;
   width: 1520px;
 }
+.testimonial-section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background: #f1f1f1;
+}
+.testimonial-wrapper {
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.testimonial-header p {
+  color: #8a8a8a;
+  font-size: 1rem;
+}
+.testimonial-header h1 {
+  text-decoration: none;
+  font-family: "Volkhov", serif;
+  color: #484848;
+  font-weight: 500;
+  font-size: 2.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.testimonial-header {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.testiomonial-card-one {
+  margin-top: 5rem;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  padding: 3rem 4.5rem;
+  justify-content: space-between;
+  border-radius: 2rem;
+  border: 0.5px #484848 solid;
+}
+.right-testimonial-card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.stars-img {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.left-testimonial-card-head {
+  font-size: 1.3rem;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  width: 520px;
+  padding-right: 2rem;
+}
+.testimonial-name {
+  font-size: 0.8rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  padding-top: 2rem;
+}
+.testimonial-profesion {
+  font-size: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
