@@ -179,7 +179,7 @@ Sec {
 }
 
 .img-carosuel-main {
-  height: 380px;
+  height: 320px;
 }
 .img-carosuel-center {
   align-items: center;
@@ -188,7 +188,7 @@ Sec {
   text-align: center;
 }
 .img-carosuel-center img {
-  height: 450px;
+  height: 350px;
 }
 .carosuel-header {
   text-decoration: none;
