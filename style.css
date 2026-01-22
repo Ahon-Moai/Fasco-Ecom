@@ -605,12 +605,12 @@ icon-four {
 .newsletter {
   padding-top: 8rem;
   padding-bottom: 5rem;
-  max-width: 1250px;
-  margin: auto;
-  border-bottom: 1px solid #767676;
+  border-bottom: 1px solid #c9c9c9;
 }
 .news-letter-main-div {
   display: flex;
+  max-width: 1250px;
+  margin: auto;
 
   justify-content: space-between;
 }
@@ -658,4 +658,37 @@ icon-four {
   font-family: "Poppins", sans-serif;
   border: none;
   font-weight: 500;
+}
+.footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.items-footer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  font-size: 0.8rem;
+  color: #767676;
+  font-weight: 500;
+}
+.footer-logo {
+  text-decoration: none;
+  font-family: "Volkhov", serif;
+  color: #484848;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+.copyright {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  padding-bottom: 1rem;
+  font-size: 0.8rem;
+  color: #8a8a8a;
 }
