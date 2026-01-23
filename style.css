@@ -934,3 +934,94 @@ icon-four {
   transition: 0.2s linear;
   cursor: pointer;
 }
+.shop-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1250px;
+  margin: auto;
+  padding: 3rem 3rem;
+}
+.shop-nav-items {
+  display: flex;
+  align-items: center;
+  gap: 31px;
+  transition: 0.3s linear;
+  color: #484848;
+  font-size: 1rem;
+}
+
+.shop-nav-items p {
+  position: relative;
+  cursor: pointer;
+}
+
+.shop-nav-items p::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 0%;
+  height: 1.5px;
+  background: #484848;
+  transition: 0.3s ease;
+}
+
+.shop-nav-items p:hover::after,
+.shop-nav-items p.active-nav::after {
+  width: 100%;
+}
+.nav-shop-icons {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+  color: #484848;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.nav-shop-icons i:hover {
+  cursor: pointer;
+}
+.fashion-main-text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+
+  padding-bottom: 2rem;
+}
+.fashion-main-text-head {
+  font-size: 2.5rem;
+  color: #484848;
+  font-weight: 500;
+  font-family: "Volkhov", sans-serif;
+}
+.fashion-main-text-para {
+  font-family: "Volkhov", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+.fashion-main-text-span {
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  color: #767676;
+  font-weight: 500;
+}
+.shop {
+  display: flex;
+  align-items: center;
+  /* Add Justify Content If NEEEDED */
+  max-width: 1250px;
+  margin: auto;
+}
+.left-shop {
+  width: 20%;
+  border: 2px solid blue;
+  height: 100vh;
+}
+.right-shop {
+  width: 80%;
+  border: 2px solid red;
+  height: 100vh;
+}
