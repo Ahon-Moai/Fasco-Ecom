@@ -1018,10 +1018,206 @@ icon-four {
 .left-shop {
   width: 20%;
   border: 2px solid blue;
-  height: 100vh;
+  height: 200vh;
 }
 .right-shop {
   width: 80%;
   border: 2px solid red;
-  height: 100vh;
+  height: 200vh;
+}
+
+.size-boxes-shop {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 15px;
+  align-items: center;
+}
+.shop-filters-para {
+  font-size: 1.5rem;
+  font-family: "Volkhov", sans-serif;
+  font-weight: 400;
+}
+.shop-size-para {
+  font-size: 1.2rem;
+  font-family: "Volkhov", sans-serif;
+  font-weight: 500;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+.size-boxes-shop p {
+  font-size: 0.9rem;
+  color: #676565;
+  border: 1px solid #767676;
+  padding: 0.1rem 0.5rem;
+  border-radius: 5px;
+  transition: 0.2s linear;
+}
+.size-boxes-shop p:hover {
+  background: #676565;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+.color-shop {
+  padding-top: 1.5rem;
+  font-size: 1rem;
+  font-family: "Volkhov", sans-serif;
+  font-weight: 400;
+}
+.colors-shop {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.color-red-shop {
+  background: red;
+
+  display: inline-block;
+  border-radius: 50px;
+  height: 25px;
+  width: 25px;
+}
+.color-blue-shop {
+  background: blue;
+
+  display: inline-block;
+  border-radius: 50px;
+  height: 25px;
+  width: 25px;
+}
+.color-antiwhite-shop {
+  background: antiquewhite;
+
+  display: inline-block;
+  border-radius: 50px;
+  height: 25px;
+  width: 25px;
+}
+.color-aqua-shop {
+  background: aqua;
+
+  display: inline-block;
+  border-radius: 50px;
+  height: 25px;
+  width: 25px;
+}
+.color-aquamarine-shop {
+  background: aquamarine;
+
+  display: inline-block;
+  border-radius: 50px;
+  height: 25px;
+  width: 25px;
+}
+.color-violet-shop {
+  background: violet;
+
+  display: inline-block;
+  border-radius: 50px;
+  height: 25px;
+  width: 25px;
+}
+.color-orange-shop {
+  background: orange;
+
+  display: inline-block;
+  border-radius: 50px;
+  height: 25px;
+  width: 25px;
+}
+.color-green-shop {
+  background: green;
+
+  display: inline-block;
+  border-radius: 50px;
+  height: 25px;
+  width: 25px;
+}
+.color-greenyellow-shop {
+  background: greenyellow;
+
+  display: inline-block;
+  border-radius: 50px;
+  height: 25px;
+  width: 25px;
+}
+.color-cyan-shop {
+  background: cyan;
+
+  display: inline-block;
+  border-radius: 50px;
+  height: 25px;
+  width: 25px;
+}
+.color-para {
+  font-size: 1.2rem;
+  font-family: "Volkhov", sans-serif;
+  font-weight: 500;
+  padding-top: 1rem;
+}
+.price-para {
+  font-size: 1.2rem;
+  font-family: "Volkhov", sans-serif;
+  font-weight: 500;
+  padding-top: 3rem;
+}
+.price p {
+  font-size: 1rem;
+  color: #767676;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+.price {
+  margin-top: 1rem;
+}
+.brands-para {
+  font-size: 1.2rem;
+  font-family: "Volkhov", sans-serif;
+  font-weight: 500;
+  padding-top: 3rem;
+  display: inline-block;
+}
+.brand-para-div {
+  display: flex;
+  align-items: center;
+}
+.brands-name {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: #838383;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+.brands-name p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.collection-para {
+  font-size: 1.2rem;
+  font-family: "Volkhov", sans-serif;
+  font-weight: 500;
+  padding-top: 3rem;
+  display: inline-block;
+  color: black;
+}
+.collections p {
+  padding-top: 1rem;
+  color: #676565;
+  font-weight: 400;
+}
+.collections p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.price p:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
