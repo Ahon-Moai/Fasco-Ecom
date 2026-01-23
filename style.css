@@ -1017,12 +1017,12 @@ icon-four {
 }
 .left-shop {
   width: 20%;
-  border: 2px solid blue;
+
   height: 200vh;
 }
 .right-shop {
   width: 80%;
-  border: 2px solid red;
+
   height: 200vh;
 }
 
@@ -1220,4 +1220,63 @@ icon-four {
 .price p:hover {
   cursor: pointer;
   text-decoration: underline;
+}
+.navbar-of-right-shop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icons-of-right-shop {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.icons-of-right-shop i {
+  background: #f2f2f2;
+  padding: 0.2rem 0.6rem;
+  border-radius: 5px;
+  color: black;
+}
+.best-selling-para {
+  font-size: 1.3rem;
+  font-family: "Volkhov", sans-serif;
+  font-weight: 500;
+}
+.best-selling-span {
+  color: #767676;
+  font-size: 1.2rem;
+  margin-left: 0.2rem;
+  font-weight: 500;
+}
+.items-cards {
+  display: flex;
+  padding: 3rem 1rem;
+  margin-top: 1.5rem;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 1rem;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.item-card {
+  display: inline-block;
+}
+.item-card img {
+  width: 300px;
+}
+.dress-name-shop {
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: "Volkhov", sans-serif;
+  padding-top: 0.5rem;
+}
+.dress-price-shop {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  padding-top: 0.5rem;
+  margin-bottom: 0.6rem;
+}
+.active {
+  border: 3.5px solid #000;
 }
