@@ -839,9 +839,8 @@ icon-four {
 .forgot-password {
   color: #5b86e5;
   font-size: 0.9rem;
-  position: absolute;
-  left: 72%;
-  margin-top: 6rem;
+  margin-left: auto;
+  margin-top: 1rem;
   font-weight: bold;
   transition: 0.1s linear;
 }
@@ -1701,13 +1700,13 @@ icon-four {
 }
 .demo-left {
   width: 60%;
-  border: 1px solid #4d6bff;
+
   height: 250vh;
 }
 .demo-right {
   padding: 2rem 3rem;
   width: 40%;
-  border: 1px solid #ff706b;
+  margin-top: 3rem;
   height: 100vh;
   background: #f5f5f5;
 }
