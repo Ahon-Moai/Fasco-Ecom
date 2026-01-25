@@ -1545,3 +1545,73 @@ icon-four {
 .payment-img {
   margin-top: 2rem;
 }
+.main-checkout {
+  display: flex;
+  margin-top: 5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 1250px;
+  margin: auto;
+}
+.checkout-head-line,
+.product-checkout-main {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  align-items: center;
+  gap: 20px;
+  margin-top: 1rem;
+}
+.checkout-head-line {
+  border-bottom: 1px solid #8a8a8a;
+  padding-bottom: 1rem;
+}
+.product-checkout-main {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #8a8a8a;
+  margin-bottom: 1rem;
+}
+.product-showcase-checkout {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.product-showcase-checkout img {
+  width: 90px;
+}
+
+.quantity-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #4d6bff;
+  width: fit-content;
+  padding: 5px 10px;
+}
+
+.quantity-btns {
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.dress-name {
+  font-family: "Volkhov", sans-serif;
+  font-weight: bold;
+  max-width: 150px;
+}
+.dress-remove,
+.dress-color {
+  font-size: 1rem;
+  color: #8a8a8a;
+}
+.dress-remove {
+  text-decoration: underline;
+  transition: 100ms linear;
+}
+.dress-remove:hover {
+  cursor: pointer;
+  font-weight: 500;
+  transition: 100ms linear;
+}
